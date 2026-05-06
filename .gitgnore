@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+*.egg
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Database & Runtime
+*.db
+*.sqlite
+data/
+*.log
+
+# Docker
+.dockerignore
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
